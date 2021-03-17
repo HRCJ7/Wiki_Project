@@ -3,7 +3,7 @@ package com.example.mapapplication.data.model
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-data class ImagePage(
+data class ImageInfo(
 
         @Expose
         @SerializedName("ns")

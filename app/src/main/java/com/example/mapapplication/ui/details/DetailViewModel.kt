@@ -4,7 +4,7 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.MutableLiveData
 import com.example.mapapplication.data.model.Page
-import com.example.mapapplication.data.model.PageImage
+import com.example.mapapplication.data.model.ArticleImage
 import com.example.mapapplication.data.repository.MapRepository
 import com.example.mapapplication.ui.base.BaseViewModel
 import com.example.mapapplication.utils.network.NetworkHelper
@@ -60,7 +60,7 @@ class DetailViewModel(
     }
 
     @RequiresApi(Build.VERSION_CODES.N)
-    fun fetchImageUrl(titleList: List<PageImage>?) {
+    fun fetchImageUrl(titleList: List<ArticleImage>?) {
         if (checkInternetConnectionWithMessage()) {
             titleList?.forEach {
                 compositeDisposable.addAll(

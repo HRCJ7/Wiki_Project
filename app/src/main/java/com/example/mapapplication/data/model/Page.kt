@@ -58,5 +58,5 @@ data class Page(
 
         @SerializedName("images")
         @Expose
-        val images: List<PageImage>
+        val images: List<ArticleImage>
 )
