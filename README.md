@@ -1,4 +1,4 @@
-# Wiki-Location-Project
+# Wiki-Project
 This project is designed for the User who is exploring the city and looking for nearby places to visit.
 ## Project Infomation 
 
