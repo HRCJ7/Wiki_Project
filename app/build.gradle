@@ -24,13 +24,13 @@ android {
             // Add this debug config to provide debug settings
             debug {
                 buildConfigField "String", "BASE_URL", "\"https://en.wikipedia.org/\""
-                buildConfigField "String", "API_KEY", "\"AIzaSyBugpmYMGM5QqgvES4wL8C9hYN7AEj1eCI\""
+                buildConfigField "String", "API_KEY", "\"******************************\""
             }
             release {
                 minifyEnabled true // to apply the proguard
                 proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
                 buildConfigField("String", "BASE_URL", "\"https://en.wikipedia.org/\"")
-                buildConfigField "String", "API_KEY", "\"AIzaSyBugpmYMGM5QqgvES4wL8C9hYN7AEj1eCI\""
+                buildConfigField "String", "API_KEY", "\"*********************************\""
             }
         }
     }
